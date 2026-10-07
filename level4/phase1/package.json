@@ -1,0 +1,22 @@
+{
+  "name": "level4",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.27.0",
+    "@langchain/core": "^1.2.14",
+    "@langchain/google-genai": "^2.3.2",
+    "@langchain/langgraph": "^1.4.19",
+    "@langchain/tavily": "^1.2.0",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
